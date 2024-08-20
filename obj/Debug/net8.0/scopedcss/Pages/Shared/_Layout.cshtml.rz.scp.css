@@ -1,0 +1,174 @@
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+
+body[b-ik5st1771u] {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h1[b-ik5st1771u], h2[b-ik5st1771u], h3[b-ik5st1771u], h4[b-ik5st1771u], h5[b-ik5st1771u], h6[b-ik5st1771u] {
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.container[b-ik5st1771u] {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar[b-ik5st1771u] {
+  background-color: #007bff;
+  padding: 10px 20px;
+}
+
+.navbar a[b-ik5st1771u] {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover[b-ik5st1771u] {
+  text-decoration: underline;
+}
+
+
+.form-group[b-ik5st1771u] {
+  margin-bottom: 15px;
+}
+
+label[b-ik5st1771u] {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"][b-ik5st1771u], 
+input[type="number"][b-ik5st1771u], 
+input[type="email"][b-ik5st1771u], 
+select[b-ik5st1771u], 
+textarea[b-ik5st1771u] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"][b-ik5st1771u], 
+button[b-ik5st1771u] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover[b-ik5st1771u], 
+button:hover[b-ik5st1771u] {
+  background-color: #0056b3;
+}
+
+
+.text-danger[b-ik5st1771u] {
+  color: #dc3545;
+}
+
+
+table[b-ik5st1771u] {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+table[b-ik5st1771u], th[b-ik5st1771u], td[b-ik5st1771u] {
+  border: 1px solid #ddd;
+}
+
+th[b-ik5st1771u], td[b-ik5st1771u] {
+  padding: 12px;
+  text-align: left;
+}
+
+th[b-ik5st1771u] {
+  background-color: #007bff;
+  color: white;
+}
+
+tr:nth-child(even)[b-ik5st1771u] {
+  background-color: #f2f2f2;
+}
+
+
+.btn-primary[b-ik5st1771u] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-primary:hover[b-ik5st1771u] {
+  background-color: #0056b3;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn-danger[b-ik5st1771u] {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn-danger:hover[b-ik5st1771u] {
+  background-color: #c82333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+a[b-ik5st1771u] {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover[b-ik5st1771u] {
+  text-decoration: underline;
+}
+
+
+footer[b-ik5st1771u] {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  color: #6c757d;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.btn-secondary[b-ik5st1771u] {
+  background-color: #6c757d;
+  color: #fff;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

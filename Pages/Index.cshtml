@@ -1,0 +1,34 @@
+﻿@page
+@model BookHive.Pages.IndexModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h1>Library Books</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Year</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model.Books)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.Genre</td>
+                <td>@book.PublicationYear</td>
+                <td>
+                    <a asp-page="./Edit" class="btn btn-secondary" asp-route-id="@book.ID">Edit</a> |
+                    <a asp-page="./Delete" class="btn btn-danger" asp-route-id="@book.ID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-page="./Create" class="btn btn-primary">Create New Book</a>
